@@ -1,27 +1,30 @@
-import TatooineImage from "../src/img/Tatooine.jpeg";
-import HothImage from "../src/img/Hoth.jpeg";
-import EndorImage from "../src/img/Endor.jpeg";
+import ShireImage from "../src/images/shire.png";
+import RivendellImage from "../src/images/rivendell.jpeg";
+import MordorImage from "../src/images/Mordor.jpeg";
 
 export default [
 	{
-		name: "Tatooine",
+		name: "The Shire",
 		description:
-			"A harsh desert world orbiting twin suns in the galaxy’s Outer Rim, Tatooine is a lawless place ruled by Hutt gangsters.",
-		// image: 'https://lumiere-a.akamaihd.net/v1/images/tatooine-main_9542b896.jpeg?region=165%2C0%2C949%2C534'
-		image: TatooineImage,
+			"A realm of endless wonder, where every hill and meadow holds a tale of simple joys and enduring friendships. Its serene beauty and warm hearths are the very essence of home.",
+		image: ShireImage,
+		map: "http://lotrproject.com/map/#zoom=4&lat=-1215&lon=1131&layers=BTTTTTTTT",
+		date: "TA 3018, September",
 	},
 	{
-		name: "Hoth",
+		name: "Rivendell",
 		description:
-			"The barren ice world of Hoth is home to the Rebel Alliance's Echo Base.",
-		// image: 'https://lumiere-a.akamaihd.net/v1/images/Hoth_d074d307.jpeg?region=0%2C0%2C1200%2C675'
-		image: HothImage,
+			"An Elven paradise, with its enchanting waterfalls and graceful architecture that seem to harmonize with the very soul of nature. It's a haven of tranquility where worries melt away, and hope feels tangible in the air.",
+		image: RivendellImage,
+		map: "http://lotrproject.com/map/#zoom=4&lat=-1215&lon=1131&layers=BTTTTTTTT",
+		date: "TA 3018, December",
 	},
 	{
-		name: "Endor",
+		name: "Mordor",
 		description:
-			"The forest moon of Endor served as the site of the Battle of Endor, one of the final engagements of the Galactic Civil War.",
-		// image: 'https://lumiere-a.akamaihd.net/v1/images/databank_endor_01_169_68ba9bdc.jpeg?region=0%2C0%2C1560%2C878'
-		image: EndorImage,
+			"A desolate and harrowing land, filled with the shadows of darkness and the weight of evil. The very air seems to carry the burden of despair, a place to be avoided at all costs.",
+		image: MordorImage,
+		map: "http://lotrproject.com/map/#zoom=4&lat=-1215&lon=1131&layers=BTTTTTTTT",
+		date: "TA 3019, March",
 	},
 ];
