@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+	font-family: "Orbitron", sans-serif;
+	background-color: whitesmoke;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.color-yellow {
+	color: #fecb00;
+	text-shadow: 1px 1px 1px white, 2px 2px 1px black;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ctn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav {
+	/* border: 1px solid red; */
+	height: 30px;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	z-index: 999;
 }
 
-.card {
-  padding: 2em;
+nav img {
+	/* border: 1px solid red; */
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 25px;
 }
 
-.read-the-docs {
-  color: #888;
+main img {
+	/* border: 1px solid red; */
+	width: 400px;
+	margin-top: 25px;
+	border-radius: 25px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#hero {
+	width: 400px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.cards-list {
+	/* border: 1px solid greenyellow; */
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	justify-content: space-around;
+}
+
+.card img {
+	/* border: 1px solid red; */
+	width: 250px;
+	border-radius: 25px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card p {
+	/* border: 1px solid greenyellow; */
+	width: 250px;
+}
+
+@media (min-width: 800px) {
+	#hero {
+		width: 750px;
+	}
+	.cards-list {
+		/* border: 1px solid blue; */
+		flex-direction: row;
+		justify-content: center;
+	}
 }
