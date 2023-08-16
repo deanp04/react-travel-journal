@@ -1,11 +1,13 @@
 body {
-	font-family: "Orbitron", sans-serif;
-	background-color: whitesmoke;
+	font-family: "Poppins", sans-serif;
+	background-color: rgba(104, 104, 104, 0.395);
 }
 
-.color-yellow {
-	color: #fecb00;
-	text-shadow: 1px 1px 1px white, 2px 2px 1px black;
+.location {
+	color: #ae1a00f8;
+	text-shadow: 2px 2px 1px lightgray;
+	font-family: 'Bilbo Swash Caps', 'sans-serif';
+	font-size: 2rem;
 }
 
 .ctn {
@@ -16,18 +18,22 @@ body {
 
 nav {
 	/* border: 1px solid red; */
-	height: 30px;
-	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: darkgray;
 	position: sticky;
 	top: 0;
 	z-index: 999;
 }
 
-nav img {
+.header-logo {
 	/* border: 1px solid red; */
-	width: 40px;
-	margin-top: 5px;
-	margin-left: 25px;
+	max-width: 200px;
+	margin: 7px 0px;
+	display: flex;
+	align-items: center;
+	height: auto;
 }
 
 main img {

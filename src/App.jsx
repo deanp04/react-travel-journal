@@ -16,6 +16,8 @@ function App() {
           name={place.name}
           description={place.description}
           image={place.image}
+          date={place.date}
+          map={place.map}
         />
   })
 
