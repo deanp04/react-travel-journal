@@ -1,6 +1,6 @@
 import ShireImage from "../src/images/shire.png";
 import RivendellImage from "../src/images/rivendell.jpeg";
-import MordorImage from "../src/images/Mordor.jpeg";
+import MordorImage from "../src/images/mordor.jpeg";
 
 export default [
 	{
